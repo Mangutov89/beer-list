@@ -1,10 +1,10 @@
 import React from "react";
 import Beer from "./Beer";
 
-function BeerList(){
+function ListOfBeers(){
   return (
     <Beer/>
   );
 }
 
-export default BeerList;
+export default ListOfBeers;
