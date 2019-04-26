@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import BeerList from "./BeerList";
+import ListOfBeers from "./ListOfBeers";
 
 function App(){
   return (
     <div>
       <Header/>
-      <BeerList/>
+      <ListOfBeers/>
       <h1>hello world</h1>
     </div>
   );
