@@ -1,6 +1,6 @@
 import React from "react";
 
-function Ticket(){
+function Beer(){
   return (
     <div>
         <h3>3A - Thato & Haley</h3>
@@ -10,4 +10,4 @@ function Ticket(){
   );
 }
 
-export default Ticket;
+export default Beer;
