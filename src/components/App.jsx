@@ -2,12 +2,15 @@ import React from "react";
 import Header from "./Header";
 import ListOfBeers from "./ListOfBeers";
 
+import { Switch, Route } from 'react-router-dom';
+
 function App(){
   return (
     <div>
       <Header/>
-      <ListOfBeers/>
-      <h1>hello world</h1>
+        <Switch>
+          <Route exact path='/' component={ListOfBeers} />
+        </Switch>
     </div>
   );
 }
