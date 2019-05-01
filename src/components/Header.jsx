@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Header(){
 
@@ -6,7 +7,6 @@ function Header(){
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    border: '2px solid red',
     backgroundColor: 'black',
     color: 'white',
     fontFamily: 'monospace'
@@ -17,15 +17,21 @@ function Header(){
     flexDirection: 'row',
     justifyContent: 'space-around'
   };
+  const marginRight = {
+    marginRight: '25px'
+  };
+  const marginLeft = {
+    marginLeft: '25px'
+  };
 
   return (
     <div style={ flexHeader }>
-      <div>
+      <div style = { marginLeft }>
         <h1>BEER ROOM</h1>
       </div>
       <div style = { sideNav }>
-        <h1>ABOUT US</h1>
-        <h1>RECOMMEND A BEER</h1>
+        <Link to = "/" style = { marginRight }>ABOUT US</Link>
+        <h1 style = { marginRight }>RECOMMEND A BEER</h1>
       </div>
     </div>
   );
