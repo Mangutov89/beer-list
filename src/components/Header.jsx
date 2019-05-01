@@ -23,6 +23,11 @@ function Header(){
   const marginLeft = {
     marginLeft: '25px'
   };
+  const linkStyle = {
+    color: 'white',
+    fontFamily: 'monospace',
+    textDecoration: 'none'
+  }
 
   return (
     <div style={ flexHeader }>
@@ -30,7 +35,7 @@ function Header(){
         <h1>BEER ROOM</h1>
       </div>
       <div style = { sideNav }>
-        <Link to = "/" style = { marginRight }>ABOUT US</Link>
+        <Link to = "/" style = { marginRight, linkStyle }>ABOUT US</Link>
         <h1 style = { marginRight }>RECOMMEND A BEER</h1>
       </div>
     </div>
