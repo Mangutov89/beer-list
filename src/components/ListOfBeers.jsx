@@ -1,7 +1,7 @@
 import React from "react";
 import Beer from "./Beer";
-import availableBeers from '../modelData/BeerList';
 import PropTypes from 'prop-types';
+
 
 function ListOfBeers(props){
   return (
@@ -17,7 +17,7 @@ function ListOfBeers(props){
   );
 }
 
-BeerList.propTypes = {
+ListOfBeers.propTypes = {
   beerList: PropTypes.array
 };
 

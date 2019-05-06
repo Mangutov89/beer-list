@@ -3,7 +3,7 @@ import Header from "./Header";
 import ListOfBeers from "./ListOfBeers";
 import MainPicture from "./MainPicture";
 import About from './About';
-import AddBeer from './AddBeer';
+import AddBeerForm from './AddBeerForm';
 import { Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
