@@ -32,11 +32,11 @@ function Header(){
   return (
     <div style={ flexHeader }>
       <div style = { marginLeft }>
-        <h1>PDX Beerly Bar</h1>
+        <Link to = "/">PDX Beerly Bar</Link>
       </div>
       <div style = { sideNav }>
-        <Link to = "/" style = { marginRight, linkStyle }>ABOUT US</Link>
-        <h1 style = { marginRight }>RECOMMEND A BEER</h1>
+        <Link to = "/about" style = { marginRight, linkStyle }>ABOUT US</Link>
+        <Link to = "/addbeer" style = { marginRight }>ADD A BEER</Link>
       </div>
     </div>
   );

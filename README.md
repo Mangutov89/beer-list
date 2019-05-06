@@ -6,7 +6,7 @@
 
 ## Description
 
-_A static website built in react for a website where you can see a tap list of beers that are available this month._
+_A website built with React that shows a list of Beers available at PDX Beer room, you can also add a beer to the list of beers available on their front page._
 
 
 ## Setup/Installation Requirements
@@ -19,7 +19,7 @@ _A static website built in react for a website where you can see a tap list of b
 
 ## Routes on paper
 
-![Routes for Project](/src/assets/images/)
+![Routes for Project](/src/assets/images/routes.jpg)
 
 ## Known Bugs
 

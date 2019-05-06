@@ -1,11 +1,12 @@
 import React from "react";
 import Beer from "./Beer";
-import availableBeers from '../modelData/BeerList'
+import availableBeers from '../modelData/BeerList';
+import PropTypes from 'prop-types';
 
-function ListOfBeers(){
+function ListOfBeers(props){
   return (
     <div>
-      {availableBeers.map((beer, index) =>
+      {props.beerList.map((beer, index) =>
         <Beer name = {beer.name}
           brewery = {beer.brewery}
           alcoholPercent = {beer.alcoholPercent}
@@ -15,5 +16,9 @@ function ListOfBeers(){
     </div>
   );
 }
+
+BeerList.propTypes = {
+  beerList: PropTypes.array
+};
 
 export default ListOfBeers;
